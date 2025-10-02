@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Ptarmigans in Cardigans</title>
+    <meta name="description" content="Learn about our unique collection celebrating the intersection of Arctic wildlife and contemporary knitwear design.">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .about-section {
+            padding: 80px 0;
+            background-color: #ffffff;
+        }
+        
+        .about-title {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #2c2c2c;
+            margin-bottom: 48px;
+        }
+        
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #666;
+        }
+        
+        .about-content h3 {
+            color: #2c2c2c;
+            font-size: 1.5rem;
+            margin: 32px 0 16px;
+        }
+        
+        .about-content p {
+            margin-bottom: 24px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo">
+                    <div class="logo-content">
+                        <div class="logo-icon">P</div>
+                        <h1>Ptarmigans in Cardigans</h1>
+                    </div>
+                </a>
+                
+                <div class="nav-links">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="index.html#gallery" class="nav-link">Gallery</a>
+                    <a href="about.html" class="nav-link active">About</a>
+                    <a href="faq.html" class="nav-link">FAQ</a>
+                </div>
+                
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+            
+            <!-- Mobile Menu -->
+            <div class="mobile-menu" id="mobileMenu">
+                <a href="index.html" class="mobile-link">Home</a>
+                <a href="index.html#gallery" class="mobile-link">Gallery</a>
+                <a href="about.html" class="mobile-link">About</a>
+                <a href="faq.html" class="mobile-link">FAQ</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <h2 class="about-title">About Our Collection</h2>
+            
+            <div class="about-content">
+                <p>
+                    Welcome to "Ptarmigans in Cardigans" – a whimsical celebration of the unexpected harmony between Arctic wildlife and contemporary knitwear design. Our collection represents a unique artistic vision that brings together the natural elegance of ptarmigan birds with the timeless appeal of carefully crafted cardigans.
+                </p>
+                
+                <h3>Our Vision</h3>
+                <p>
+                    We believe that beauty emerges from unexpected combinations. By pairing the sophisticated natural styling of ptarmigans with thoughtfully designed knitwear, we create a visual narrative that speaks to both our connection with nature and our appreciation for artisanal craftsmanship.
+                </p>
+                
+                <h3>The Ptarmigans</h3>
+                <p>
+                    Each ptarmigan in our collection has been selected for their distinctive personality and natural poise. These remarkable Arctic birds are already masters of seasonal fashion, naturally adapting their plumage throughout the year. Their inherent sense of style makes them perfect ambassadors for our cardigan designs.
+                </p>
+                
+                <h3>The Cardigans</h3>
+                <p>
+                    Our cardigan designs draw inspiration from traditional knitting techniques while embracing contemporary aesthetics. From classic cable-knit patterns to elegant wrap styles, each piece is conceptualized to complement the natural beauty and personality of its ptarmigan model.
+                </p>
+                
+                <h3>Our Process</h3>
+                <p>
+                    Through careful digital artistry, we create these enchanting combinations while ensuring the comfort and well-being of our avian subjects. No ptarmigans were disturbed in the making of this collection – their natural behaviors and habitats remain completely undisturbed.
+                </p>
+                
+                <h3>The Collection</h3>
+                <p>
+                    Our current collection features six distinguished ptarmigans, each showcasing a unique cardigan style and personality. From Mustard's contemplative elegance to Ruby's confident charisma, each portrait tells a story of sophistication and charm that transcends the boundaries between wildlife and fashion.
+                </p>
+                
+                <p>
+                    We invite you to explore our gallery and discover the delightful world where Arctic birds meet contemporary knitwear – a place where nature's inherent style meets human creativity and craftsmanship.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Mobile menu functionality
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

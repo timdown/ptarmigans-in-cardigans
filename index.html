@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ptarmigans in Cardigans - Arctic Birds in Contemporary Knitwear</title>
+    <meta name="description" content="A curated collection showcasing ptarmigan birds in carefully crafted cardigans, where traditional Arctic wildlife meets artisanal textile design.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#" class="logo">
+                    <div class="logo-content">
+                        <div class="logo-icon">P</div>
+                        <h1>Ptarmigans in Cardigans</h1>
+                    </div>
+                </a>
+                
+                <div class="nav-links">
+                    <a href="#" class="nav-link active">Home</a>
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="faq.html" class="nav-link">FAQ</a>
+                </div>
+                
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+            
+            <!-- Mobile Menu -->
+            <div class="mobile-menu" id="mobileMenu">
+                <a href="#" class="mobile-link">Home</a>
+                <a href="#gallery" class="mobile-link">Gallery</a>
+                <a href="about.html" class="mobile-link">About</a>
+                <a href="faq.html" class="mobile-link">FAQ</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Arctic Birds in Contemporary Knitwear</h2>
+            <p>A curated collection showcasing ptarmigan birds in carefully crafted cardigans, where traditional Arctic wildlife meets artisanal textile design.</p>
+            <button class="cta-btn" onclick="scrollToGallery()">View Collection</button>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h3>Featured Collection</h3>
+            <div class="grid" id="ptarmiganGrid">
+                <!-- Ptarmigan cards will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal" id="ptarmiganModal">
+        <div class="modal-backdrop" onclick="closeModal()">
+            <div class="modal-content" onclick="event.stopPropagation()">
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+                <img id="modalImage" src="" alt="" class="modal-image">
+                <div class="modal-info">
+                    <h4 id="modalName"></h4>
+                    <p id="modalStyle" class="modal-style"></p>
+                    <p id="modalDescription" class="modal-description"></p>
+                    <p id="modalPersonality" class="modal-personality"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Ptarmigans in Cardigans</title>
+    <meta name="description" content="Frequently asked questions about our ptarmigan cardigan collection and Arctic bird fashion.">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .faq-section {
+            padding: 80px 0;
+            background-color: #ffffff;
+        }
+        
+        .faq-title {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #2c2c2c;
+            margin-bottom: 48px;
+        }
+        
+        .faq-item {
+            background: white;
+            border: 1px solid #e1e8ed;
+            border-radius: 8px;
+            margin-bottom: 16px;
+            overflow: hidden;
+        }
+        
+        .faq-question {
+            background: none;
+            border: none;
+            width: 100%;
+            padding: 24px;
+            text-align: left;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #2c2c2c;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background-color 0.3s ease;
+        }
+        
+        .faq-question:hover {
+            background-color: #f8f9fa;
+        }
+        
+        .faq-icon {
+            font-size: 1.2rem;
+            transition: transform 0.3s ease;
+        }
+        
+        .faq-item.active .faq-icon {
+            transform: rotate(45deg);
+        }
+        
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        
+        .faq-item.active .faq-answer {
+            max-height: 300px;
+        }
+        
+        .faq-answer-content {
+            padding: 0 24px 24px;
+            color: #666;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo">
+                    <div class="logo-content">
+                        <div class="logo-icon">P</div>
+                        <h1>Ptarmigans in Cardigans</h1>
+                    </div>
+                </a>
+                
+                <div class="nav-links">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="index.html#gallery" class="nav-link">Gallery</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="faq.html" class="nav-link active">FAQ</a>
+                </div>
+                
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+            
+            <!-- Mobile Menu -->
+            <div class="mobile-menu" id="mobileMenu">
+                <a href="index.html" class="mobile-link">Home</a>
+                <a href="index.html#gallery" class="mobile-link">Gallery</a>
+                <a href="about.html" class="mobile-link">About</a>
+                <a href="faq.html" class="mobile-link">FAQ</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="faq-title">Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <button class="faq-question">
+                    Are these real ptarmigans wearing real cardigans?
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Our ptarmigans are digitally enhanced with carefully designed cardigans using advanced imaging techniques. No actual ptarmigans were involved in cardigan-wearing during the creation of this collection, ensuring their comfort and natural behavior remains undisturbed.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <button class="faq-question">
+                    What inspired this unique collection?
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        The concept emerged from the delightful contrast between Arctic wildlife and cozy knitwear. We wanted to celebrate both the natural beauty of ptarmigans and the timeless appeal of well-crafted cardigans, creating a whimsical intersection of nature and fashion.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <button class="faq-question">
+                    Can I purchase these cardigans for humans?
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        While our featured cardigans are conceptual designs created specifically for our ptarmigan models, we're exploring partnerships with artisan knitwear designers to bring human-sized versions to life. Stay tuned for updates!
+                    </div>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <button class="faq-question">
+                    How do you choose which ptarmigans to feature?
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Each ptarmigan is selected based on their distinctive personality and natural poise. We look for birds that embody the spirit of sophistication and charm that pairs beautifully with our cardigan designs. It's about finding the perfect match between bird and knitwear aesthetic.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <button class="faq-question">
+                    Are ptarmigans naturally fashionable?
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Ptarmigans are remarkably adaptable birds that naturally change their plumage with the seasons, demonstrating an innate understanding of appropriate seasonal styling. This natural fashion sense makes them perfect candidates for our cardigan collection.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <button class="faq-question">
+                    Will you be adding more ptarmigans to the collection?
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        We're always on the lookout for new ptarmigan models and cardigan designs. Our collection grows organically as we discover birds with exceptional style potential and develop new knitwear concepts that complement their natural beauty.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <button class="faq-question">
+                    Do the cardigans provide actual warmth for the ptarmigans?
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Ptarmigans are exceptionally well-adapted to cold climates with their natural insulation. Our digital cardigans are purely aesthetic additions that celebrate their inherent coziness rather than providing additional warmth they don't need.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Mobile menu functionality
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+        });
+
+        // FAQ accordion functionality
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const faqItem = question.parentElement;
+                const isActive = faqItem.classList.contains('active');
+                
+                // Close all other FAQ items
+                document.querySelectorAll('.faq-item').forEach(item => {
+                    item.classList.remove('active');
+                });
+                
+                // Toggle current item
+                if (!isActive) {
+                    faqItem.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
